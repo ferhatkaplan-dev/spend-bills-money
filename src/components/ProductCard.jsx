@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { addSpending } from "../redux/spendMoney/spendMoneySlice";
 import { formatCurrency, removeFirstCharIfZero } from "../utils/utils";
+import classNames from "classnames";
 
 const ProductCard = ({ product }) => {
   const [amount, setAmount] = useState(0);
@@ -42,9 +43,10 @@ const ProductCard = ({ product }) => {
       <div className="flex space-x-2">
         <button
           onClick={() => handleBuySellClick(-1)}
-          className={`py-2 px-8 rounded-sm font-medium bg-slate-100 w-1/3 ${
-            amount > 0 ? "bg-red-500 text-white" : ""
-          }`}
+          className={classNames({
+            "py-2 px-8 rounded-sm font-medium bg-slate-100 w-1/3 ": true,
+            "!bg-red-500 text-white": amount > 0,
+          })}
         >
           Sell
         </button>
