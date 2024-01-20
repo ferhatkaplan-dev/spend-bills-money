@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Big Mac",
+      "price": 2,
+      "image": "https://neal.fun/spend/images/big-mac.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Video Game",
+      "price": 60,
+      "image": "https://neal.fun/spend/images/video-game.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Air Jordans",
+      "price": 125,
+      "image": "https://neal.fun/spend/images/air-jordans.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Gaming Console",
+      "price": 299,
+      "image": "https://neal.fun/spend/images/gaming-console.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Formula 1 Car",
+      "price": 15000000,
+      "image": "https://neal.fun/spend/images/formula-1-car.jpg"
+    },
+    {
+      "id": 6,
+      "name": "NBA Team",
+      "price": 210000000,
+      "image": "https://neal.fun/spend/images/nba-team.jpg"
+    }
+  ]
+}
